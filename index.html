@@ -1,0 +1,108 @@
+  <!DOCTYPE html>                                                                                                         
+  <html lang="ja">
+  <head>                                                                                                                  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">                                                    
+  <title>OtoAto - ライブのセットリスト自動保存＆サブスク連携</title>                                                      
+  <meta name="description" content="ライブの記憶をもっと鮮明に。セットリストを自動保存し、Apple                           
+  Music・Spotifyのプレイリストへ一瞬で連携できるiOSアプリです。">                                                         
+  <style>                                                                                                                 
+    * { box-sizing: border-box; }                                                                                         
+    body {                                                                                                                
+      margin: 0;
+      font-family: -apple-system, "Hiragino Sans", "Helvetica Neue", sans-serif;                                          
+      background: linear-gradient(180deg, #0a0a0f 0%, #1a1530 100%);
+      color: #fff;                                                                                                        
+      min-height: 100vh;
+      display: flex;                                                                                                      
+      flex-direction: column;                               
+      align-items: center;                                                                                                
+      justify-content: center;
+      padding: 40px 20px;                                                                                                 
+      text-align: center;                                   
+    }
+    .logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 28px;                                                                                                
+      background: linear-gradient(135deg, #ff6b9d 0%, #c44dff 100%);
+      display: flex;                                                                                                      
+      align-items: center;                                  
+      justify-content: center;
+      font-size: 48px;                                                                                                    
+      font-weight: 900;
+      color: white;                                                                                                       
+      margin-bottom: 24px;                                  
+      box-shadow: 0 10px 40px rgba(196, 77, 255, 0.4);
+    }                                                                                                                     
+    h1 {
+      font-size: 32px;                                                                                                    
+      font-weight: 800;                                     
+      margin: 0 0 12px;
+    }
+    .subtitle {
+      font-size: 16px;                                                                                                    
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 32px;                                                                                                
+      max-width: 500px;                                     
+      line-height: 1.6;
+    }                                                                                                                     
+    .features {
+      list-style: none;                                                                                                   
+      padding: 0;                                           
+      margin: 0 0 40px;
+      text-align: left;
+      max-width: 400px;
+    }
+    .features li {                                                                                                        
+      padding: 10px 0;
+      font-size: 15px;                                                                                                    
+      color: rgba(255, 255, 255, 0.85);                     
+    }
+    .features li::before {
+      content: "✓ ";
+      color: #c44dff;                                                                                                     
+      font-weight: bold;
+      margin-right: 4px;                                                                                                  
+    }                                                       
+    .button {
+      display: inline-block;
+      padding: 14px 32px;
+      background: white;                                                                                                  
+      color: #1a1530;
+      border-radius: 100px;                                                                                               
+      text-decoration: none;                                
+      font-weight: 700;
+      font-size: 16px;
+      transition: transform 0.2s;
+    }                                                                                                                     
+    .button:hover { transform: translateY(-2px); }
+    footer {                                                                                                              
+      margin-top: 60px;                                     
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.4);
+    }                                                                                                                     
+    footer a {
+      color: rgba(255, 255, 255, 0.6);                                                                                    
+      text-decoration: none;                                
+    }
+  </style>
+  </head>
+  <body>                                                                                                                  
+    <div class="logo">Oto<br>Ato</div>
+    <h1>OtoAto</h1>                                                                                                       
+    <p class="subtitle">ライブのセットリストを記録し、<br>Apple Music・Spotifyにそのまま連携できるiOSアプリ。</p>
+    <ul class="features">                                                                                                 
+      <li>セットリストを自動入力で素早く保存</li>
+      <li>Apple Music / Spotifyのプレイリストへ瞬時に連携</li>                                                            
+      <li>参戦したライブを写真・座席・同行者と一緒に記録</li>
+      <li>マップ・スタッツで自分のライブ履歴を可視化</li>                                                                 
+      <li>チケット風のシェアカードでSNSに投稿</li>          
+    </ul>                                                                                                                 
+    <a class="button" href="https://apps.apple.com/jp/app/id6770205010">App Store で見る</a>
+    <footer>                                                                                                              
+      © 2026 Ryota Fujitsuka ・                                                                                           
+      <a href="https://ryota-111.github.io/livesetlist-privacy/privacy-policy">プライバシーポリシー</a>
+    </footer>                                                                                                             
+  </body>                                                   
+  </html>
